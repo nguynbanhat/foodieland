@@ -281,7 +281,7 @@
 .recipes__product--img {
     border-radius: 20px;
     position: relative;
-    left: -7px;
+    left: 0;
     width: 100%;
 }
 
