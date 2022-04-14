@@ -225,6 +225,7 @@
 .category__more h3 {
     font-size: 1.6rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .category__title--roducts {
@@ -340,7 +341,7 @@
 }
 
 .learn-more__content {
-    width: 534px;
+    max-width: 534px;
 }
 
 .learn-more__title {
@@ -662,14 +663,13 @@
 }
 
 .subscribe__search {
-    width: 480px;
+    max-width: 480px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--white-color);
     border-radius: 20px;
-    padding: 0 15px;
     margin: auto;
 }
 
@@ -690,6 +690,8 @@
     align-items: center;
     font-size: 1.8rem;
     color: var(--white-color);
+    border: none;
+    margin-right: 10px;
 }
 
 .subscribe__img1 {
