@@ -1,56 +1,6 @@
-@media screen and (max-width: 1279px) {
-    .app {
-        padding: 0 10px;
-    }
 
-    .header {
-
-    }
-
-    .header__info {
-        display: none;
-    }
-
-    .featured {
-        display: none;
-    }
-
-    .learn-more {
-        flex-direction: column;
-    }
-
-    .recipes__product--commercial {
-        display: none;
-    }
-
-    .subscribe {
-        padding: 20px 20px;
-    }
-
-    .subscribe img {
-        display: none;
-    }
-
-    .footer__infor--social {
-        display: none;
-    }
-
-    .subnav-item {
-        margin-left: 20px;
-    }
-
-    .footer__infor {
-        display: block;
-    }
-    
-    .footer__infor--text {
-        position: initial;
-        text-align: center;
-    }
-}
-
-
-@media screen and (max-width: 740px) {
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) { 
     html {
         font-size: 8px;
     }
@@ -64,19 +14,296 @@
         display: none;
     }
 
-    .header__list--menu {
+    .header__list-menu {
         display: block;
+    }
+
+    .header__info {
+        display: none;
     }
 
     .footer__header {
         display: block;
     }
 
-    .footer__header--intro {
+    .footer__header-intro {
         text-align: center;
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured__intro {
+        max-width: 100%;
+        border-radius: inherit;
+    }
+
+    .featured__img::after {
+        display: none;
+    }
+
+    .featured__img img {
+        border-radius: inherit;
+    }
+
+    .learn-more {
+        flex-direction: column;
+    }
+
+    .featured__intro-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .recipes__product-commercial {
+        display: none;
+    }
+
+    .subscribe {
+        padding: 20px 20px;
+    }
+
+    .subscribe img {
+        display: none;
+    }
+
+    .watch__video-link {
+        margin-top: 20px;
     }
 
     .subnav {
         display: none;
     }
+
+    .footer__infor-social {
+        display: none;
+    }
+
+    .subnav-item {
+        margin-left: 20px;
+    }
+
+    .footer__infor {
+        display: block;
+    }
+    
+    .footer__infor-text {
+        position: initial;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .app {
+        padding: 0 10px;
+    }
+
+    .header {
+
+    }
+
+    .header__info {
+        display: none;
+    }
+
+    .header__item-link {
+        margin: 0 12px;
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured__intro {
+        max-width: 100%;
+        border-radius: inherit;
+    }
+
+    .featured__img::after {
+        display: none;
+    }
+
+    .featured__img img {
+        border-radius: inherit;
+    }
+
+    .learn-more {
+        flex-direction: column;
+    }
+
+    .recipes__product-commercial {
+        display: none;
+    }
+
+    .subscribe {
+        padding: 20px 20px;
+    }
+
+    .subscribe img {
+        display: none;
+    }
+
+    .footer__infor-social {
+        display: none;
+    }
+
+    .subnav-item {
+        margin-left: 20px;
+    }
+
+    .footer__infor {
+        display: block;
+    }
+    
+    .footer__infor-text {
+        position: initial;
+        text-align: center;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    .app {
+        padding: 0 10px;
+    }
+
+    .header {
+
+    }
+
+    .header__info {
+        display: none;
+    }
+
+    .header__item-link {
+        margin: 0 25px;
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured__intro {
+        max-width: 100%;
+        border-radius: inherit;
+    }
+
+    .featured__img::after {
+        display: none;
+    }
+
+    .featured__img img {
+        border-radius: inherit;
+    }
+
+    .learn-more {
+        flex-direction: column;
+    }
+
+    .recipes__product-commercial {
+        display: none;
+    }
+
+    .subscribe {
+        padding: 20px 20px;
+    }
+
+    .subscribe img {
+        display: none;
+    }
+
+    .footer__infor-social {
+        display: none;
+    }
+
+    .subnav-item {
+        margin-left: 20px;
+    }
+
+    .footer__infor {
+        display: block;
+    }
+    
+    .footer__infor-text {
+        position: initial;
+        text-align: center;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    .app {
+        padding: 0 10px;
+    }
+
+    .header {
+
+    }
+
+    .header__info {
+        display: none;
+    }
+
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured__intro {
+        max-width: 100%;
+        border-radius: inherit;
+    }
+
+    .featured__img::after {
+        display: none;
+    }
+
+    .featured__img img {
+        border-radius: inherit;
+    }
+
+    .learn-more {
+        flex-direction: column;
+    }
+
+    .recipes__product-commercial {
+        display: none;
+    }
+
+    .subscribe {
+        padding: 20px 20px;
+    }
+
+    .subscribe img {
+        display: none;
+    }
+
+    .footer__infor-social {
+        display: none;
+    }
+
+    .subnav-item {
+        margin-left: 20px;
+    }
+
+    .footer__infor {
+        display: block;
+    }
+    
+    .footer__infor-text {
+        position: initial;
+        text-align: center;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .app {
+        padding: 0 10px;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
 }
