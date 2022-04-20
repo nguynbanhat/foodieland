@@ -55,10 +55,20 @@ html {
     color: rgba(219, 226, 229, 1);
 }
 
-.heart .active {
+.heart.heart-active {
     color: rgba(255, 99, 99, 1);
 }
 
-.header__list--info.active {
-    transform: translateX(0)
+.recipes__product-heat {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    top: 5%;
+    right: 8%;
+    background-color: var(--white-color);
+}
+
+.header__list--info.menu-active {
+    transform: translateX(0);
 }

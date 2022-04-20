@@ -334,7 +334,7 @@
     height: 48px;
     border-radius: 50%;
     top: 5%;
-    right: 10%;
+    right: 8%;
     background-color: var(--white-color);
 }
 /* learn-more */
@@ -566,16 +566,6 @@
 
 .more-recipes__product-img {
     width: 100%;
-}
-
-.more-recipes__product-heat {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    background-color: var(--white-color);
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
 }
 
 .more-recipes__product-container {

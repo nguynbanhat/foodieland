@@ -239,7 +239,7 @@
                                 </a>
 
                                 <div class="recipes__product-heat heart d-flex center-center">
-                                    <i class="fa-solid fa-heart active"></i>                                        
+                                    <i class="fa-solid fa-heart"></i>                                        
                                 </div>
 
                                 <div class="recipes__product-container">
@@ -997,7 +997,7 @@
                                     <img src="./asset/img/morerecipe1.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart active"></i>                                       
                                 </div>
 
@@ -1036,7 +1036,7 @@
                                     <img src="./asset/img/morecipe2.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                      
                                 </div>
 
@@ -1075,7 +1075,7 @@
                                     <img src="./asset/img/morecipe3.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                       
                                 </div>
 
@@ -1114,7 +1114,7 @@
                                     <img src="./asset/img/morecipe4.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                      
                                 </div>
 
@@ -1153,7 +1153,7 @@
                                     <img src="./asset/img/morecipe5.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                       
                                 </div>
 
@@ -1192,7 +1192,7 @@
                                     <img src="./asset/img/morecipe6.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                        
                                 </div>
 
@@ -1231,7 +1231,7 @@
                                     <img src="./asset/img/morecipe7.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                        
                                 </div>
 
@@ -1270,7 +1270,7 @@
                                     <img src="./asset/img/morecipe8.png" alt="" class="more-recipes__product-img">
                                 </a>
 
-                                <div class="more-recipes__product-heat heart d-flex center-center">
+                                <div class="recipes__product-heat heart d-flex center-center">
                                     <i class="fa-solid fa-heart"></i>                                        
                                 </div>
 
@@ -1371,12 +1371,11 @@
     <script>
         // heart-noHaert
 
-        var likes = document.querySelectorAll('.heart')
-        
+        var likes = document.querySelectorAll('.recipes__product-heat')
         likes.forEach(like => {
             like.onclick = function() {
                 console.log('like');
-                like.classList.toggle('active');
+                like.classList.toggle('heart-active');
             }
         })
         
@@ -1387,7 +1386,7 @@
 
         menu.onclick = function(e) {
             console.log('lew lew')
-            menuItem.classList.toggle('active');         
+            menuItem.classList.toggle('menu-active');         
         }
     </script>
 </body>
