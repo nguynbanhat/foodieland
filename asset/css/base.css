@@ -1,5 +1,5 @@
 :root {
-    --black-color: #000000;
+    --main-tittle-color: #000000;
     --white-color: #ffffff;
     --text-color: rgba(0, 0, 0, 0.6);
 
@@ -21,6 +21,8 @@ html {
     overflow: hidden;
 }
 
+/* class chung */
+
 .clear::after {
     content: '';
     display: block;
@@ -31,11 +33,32 @@ html {
     display: flex;
 }
 
+.d-flex.center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex.center-space {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: calc(58/48);
+    color: var(--main-tittle-color);
+}
+
 .heart {
     font-size: 1.8rem;
     color: rgba(219, 226, 229, 1);
 }
 
-.heart.active {
+.heart .active {
     color: rgba(255, 99, 99, 1);
+}
+
+.header__list--info.active {
+    transform: translateX(0)
 }
