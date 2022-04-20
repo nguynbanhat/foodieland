@@ -19,6 +19,7 @@ html {
 
 .app {
     overflow: hidden;
+    padding: 0 15px;
 }
 
 /* class chung */

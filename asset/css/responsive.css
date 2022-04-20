@@ -140,9 +140,6 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
-    .app {
-        padding: 0 10px;
-    }
 
     .header__list--info {
         display: flex;
@@ -185,10 +182,6 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1279px){
-    .app {
-        padding: 0 10px;
-    }
-
     .header__list--info {
         display: flex;
     }
@@ -226,6 +219,17 @@
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1280px) {
+
+    .app {
+        padding: 0;
+    }
+
+    .slider__btn-left,
+    .slider__btn-right {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
 
     .header__info {
         display: flex;
