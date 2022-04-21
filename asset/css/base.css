@@ -48,6 +48,7 @@ html {
     font-size: 4.8rem;
     font-weight: 600;
     line-height: calc(58/48);
+    letter-spacing: -0.04em;
     color: var(--main-tittle-color);
 }
 
