@@ -18,8 +18,6 @@ $('.slider').slick({
     </button>
     </div>`,
 });
-
-
   
 // heart-noHaert
 
@@ -35,8 +33,13 @@ likes.forEach(like => {
 
 var menu = document.querySelector('.header__list-menu')
 var menuItem = document.querySelector('.header__list--info')
+var menuClose = document.querySelector('.header__item--close')
 
 menu.onclick = function(e) {
     console.log('lew lew')
     menuItem.classList.toggle('menu-active');         
+}
+
+menuClose.onclick = function() {
+    menuItem.classList.toggle('menu-active');
 }

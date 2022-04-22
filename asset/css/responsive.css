@@ -13,7 +13,10 @@
     .header__list-menu {
         position: relative;
         display: block;
-        z-index: 100;
+    }
+
+    .header__item--close {
+        display: block
     }
 
     .header__list--info {
@@ -25,7 +28,7 @@
         background-color: var(--white-color);
         flex-direction: column;
         align-items: center;
-        padding-top: 30%;
+        justify-content: center;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
         transform: translateX(120%);
         transition: all 0.2s linear;
@@ -52,6 +55,10 @@
     .footer__header-intro {
         text-align: center;
     }
+
+    /* .featured {
+        flex-direction: column;
+    } */
 
     .featured__intro {
         max-width: 100%;
@@ -107,6 +114,10 @@
         display: flex;
     }
 
+    /* .featured {
+        flex-direction: column;
+    } */
+
     .featured__intro {
         max-width: 100%;
         border-radius: inherit;
@@ -138,6 +149,28 @@
     }
 }
 
+@media (max-width: 768px) {
+    /* slider */
+
+    .featured {
+        flex-direction: column-reverse;
+    }
+
+    .featured__intro {
+        flex-basis: 100%;
+        padding: 20px 20px;
+    }
+
+    .featured__intro-name {
+        font-size: 4.2rem;
+        margin: 20px 0;
+    }
+
+    .featured__img {
+        flex-basis: 100%;
+    }
+}
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
 
@@ -149,9 +182,17 @@
         margin: 0 25px;
     }
 
+    /* .featured {
+        flex-direction: column;
+    } */
+
     .featured__intro {
         max-width: 100%;
         border-radius: inherit;
+    }
+
+    .featured__intro-name {
+        font-size: 4rem;
     }
 
     .featured__img img {
@@ -191,6 +232,10 @@
         border-radius: inherit;
     }
 
+    .featured__intro-tags {
+        display: flex;
+    }
+
     .featured__img img {
         border-radius: inherit;
     }
@@ -217,6 +262,13 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
+    .featured__intro {
+        padding: 20px 20px;
+    }
+
+}
+
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1280px) {
 
@@ -239,6 +291,10 @@
         flex-direction: row;
     }
 
+    .featured__intro-tags {
+        display: flex;
+    }
+    
     .featured__img::after {
         display: block;
     }
