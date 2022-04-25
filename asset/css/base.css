@@ -24,6 +24,10 @@ html {
 
 /* class chung */
 
+.l-style{
+    list-style: none;
+}
+
 .clear::after {
     content: '';
     display: block;
@@ -52,6 +56,13 @@ html {
     color: var(--main-tittle-color);
 }
 
+.text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: calc(28/16);
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .heart {
     font-size: 1.8rem;
     color: rgba(219, 226, 229, 1);
@@ -74,3 +85,17 @@ html {
 .header__list--info.menu-active {
     transform: translateX(0);
 }
+
+/* --------- */
+
+.slider,
+.category,
+.recipes,
+.learn-more,
+.fd-instagram,
+.more-recipes,
+.subscribe,
+.recipes-recomment {
+    margin-bottom: 150px;
+}    
+

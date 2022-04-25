@@ -1,13 +1,9 @@
 .grid {
     width: 100%;
-    max-width: 100%;
-    display: block;
-    padding: 0;
-}
-
-.grid.wide {
     max-width: 1280px;
     margin: 0 auto;
+    display: block;
+    padding: 0;
 }
 
 .row {
@@ -414,6 +410,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    
+    .grid {
+        max-width: 999px;
+    }
 
     .row {
         margin-left: -16px;
@@ -551,7 +551,7 @@
 
 @media screen and (min-width: 1280px) {
 
-    .wide {
+    .grid {
         width: 1200px;
         max-width: 100%;
     }
@@ -708,7 +708,7 @@
 
 @media screen and (min-width: 1400px) {
     
-    .wide {
+    .grid {
         width: 1280px;
         max-width: 100%;
     }

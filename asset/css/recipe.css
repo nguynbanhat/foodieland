@@ -1,0 +1,103 @@
+
+.recipes-header__heading {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.more-recipes__header--title {
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: calc(44/36);
+    letter-spacing: -0.04em;
+}
+
+.recipes-header__heading-info-title {
+    margin-bottom: 60px;
+}
+
+.recipes-header__list-recipe{
+    margin-left: 60px;
+}
+
+.recipes-header__item-recipe {
+    border-left: 1px solid #ccc;
+    padding: 10px 30px;
+    height: 50px;
+}
+
+.recipes-header__item-recipe i {
+    font-size: 1.8rem;
+    margin-right: 15px;
+}
+
+.recipes-header__heading-social-print span,
+.recipes-header__heading-social-share span,
+.recipes-header__item-recipe-detail span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: calc(15/12);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.recipes-header__item-recipe-detail p {
+    font-size: 1.4rem;
+    line-height: calc(17/14);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.recipes-header__heading-social--icon {
+    width: 80px;
+    height: 80px;
+    background-color: #E7FAFE;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.recipes-header__heading-social-print,
+.recipes-header__heading-social-share {
+    margin-left: 28px;
+    text-align: center;
+}
+
+.recipes-header__content-video {
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #ccc;
+    position: relative;
+}
+
+.recipes-header__content-video:hover .btn-playvideo{
+    display: block;
+    animation: playvideo ease-in 0.3s;
+}
+
+@keyframes playvideo {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+
+}
+
+.btn-playvideo {
+    position: absolute;
+    width: 120px;
+    max-height: 120px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    font-size: 2.4rem;
+    text-align: center;
+    line-height: 120px;
+    color: #181945;
+    z-index: 9999;
+    display: none;
+}
+
+.recipes-header__content-table {
+    background-color: #E7FAFE;
+}

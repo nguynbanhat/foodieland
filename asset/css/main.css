@@ -65,6 +65,11 @@
 }
 
 /* slider */
+
+.slider-wrap {
+    margin: 0 5px
+}
+
 .featured {
     width: 100%;
     max-width: 1280px;
@@ -255,10 +260,6 @@
 
 /* category */
 
-.category {
-    margin-top: 160px;
-}
-
 .category__more {
     width: 200px;
     height: 60px;
@@ -275,7 +276,7 @@
 }
 
 .category__title-roducts {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .category__title-roduct {
@@ -327,14 +328,9 @@
 
 /* recipes */
 
-.recipes {
-    margin-top: 180px;
-    margin-bottom: 115px;
-}
-
 .recipes__title {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .recipes__focus {
@@ -402,8 +398,7 @@
 
 .learn-more {
     max-width: 1280px;
-    margin: auto;
-    margin-bottom: 160px;
+    margin: 0 auto 160px;
 }
 
 .learn-more__content {
@@ -428,7 +423,7 @@
 }
 
 .learn-more__btn a{
-    width: 180px;
+    max-width: 180px;
     height: 60px;
     background-color: var(--main-tittle-color);
     border-radius: 15px;
@@ -442,7 +437,7 @@
 
 .fd-instagram {
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
-    padding: 80px 0;
+    padding-bottom: 80px;
 }
 
 .fd-instagram__outstanding {
@@ -594,13 +589,8 @@
 
 /* more-recipes */
 
-.more-recipes {
-    margin-top: 150px;
-    margin-bottom: 100px;
-}
-
 .more-recipes__header {
-    margin-bottom: 75px;
+    margin-bottom: 30px;
 }
 
 .more-recipes__header-title {
@@ -623,7 +613,7 @@
 }
 
 .more-recipes__product-container {
-    height: 140px;
+    padding: 5px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -651,13 +641,7 @@
 }
 
 .more-recipes__product {
-    padding: 5px 0 10px 0;
-    border-radius: 20px;
-    margin-bottom: 40px;
-}
-
-.more-recipes__product:hover {
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: 30px;
 }
 
 /* subscribe */
@@ -668,7 +652,6 @@
     background-color: #E7F9FD;
     border-radius: 60px;
     overflow: hidden;
-    margin-bottom: 160px;
 }
 
 .subscribe__content {
@@ -794,6 +777,3 @@
 }
 
 
-.slider-wrap {
-    margin: 0 5px
-}

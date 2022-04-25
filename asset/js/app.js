@@ -43,3 +43,20 @@ menu.onclick = function(e) {
 menuClose.onclick = function() {
     menuItem.classList.toggle('menu-active');
 }
+
+// playvieo
+
+var myVideo = document.getElementById("video1");
+var btn = document.querySelector(".btn-playvideo") 
+
+function playPause() {
+    
+    myVideo.controls = "true"
+    if (myVideo.paused) {
+        myVideo.play();
+        btn.style.display = 'none' 
+    }else {
+        myVideo.pause();
+    }
+           
+}     

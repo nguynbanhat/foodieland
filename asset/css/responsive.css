@@ -60,14 +60,6 @@
         flex-direction: column;
     } */
 
-    .featured__intro {
-        max-width: 100%;
-        border-radius: inherit;
-    }
-
-    .featured__img img {
-        border-radius: inherit;
-    }
 
     .learn-more {
         flex-direction: column;
@@ -118,14 +110,6 @@
         flex-direction: column;
     } */
 
-    .featured__intro {
-        max-width: 100%;
-        border-radius: inherit;
-    }
-
-    .featured__img img {
-        border-radius: inherit;
-    }
 
     .learn-more {
         flex-direction: column;
@@ -169,6 +153,24 @@
     .featured__img {
         flex-basis: 100%;
     }
+
+    .featured__intro {
+        border-radius: inherit;
+    }
+
+    .featured__img img {
+        border-radius: inherit;
+    }
+
+    .slider,
+    .category,
+    .recipes,
+    .learn-more,
+    .fd-instagram,
+    .more-recipes,
+    .subscribe {
+        margin-bottom: 100px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -186,17 +188,8 @@
         flex-direction: column;
     } */
 
-    .featured__intro {
-        max-width: 100%;
-        border-radius: inherit;
-    }
-
     .featured__intro-name {
         font-size: 4rem;
-    }
-
-    .featured__img img {
-        border-radius: inherit;
     }
 
     .learn-more {
@@ -227,18 +220,10 @@
         display: flex;
     }
 
-    .featured__intro {
-        max-width: 100%;
-        border-radius: inherit;
-    }
-
     .featured__intro-tags {
         display: flex;
     }
 
-    .featured__img img {
-        border-radius: inherit;
-    }
 
     .learn-more {
         flex-direction: column;
