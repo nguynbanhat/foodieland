@@ -28,6 +28,10 @@ html {
     list-style: none;
 }
 
+.tdn {
+    text-decoration: none;
+}
+
 .clear::after {
     content: '';
     display: block;
@@ -36,6 +40,10 @@ html {
 
 .d-flex {
     display: flex;
+}
+
+.center {
+    align-items: center;
 }
 
 .d-flex.center-center {

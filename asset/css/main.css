@@ -168,10 +168,6 @@
     margin-top: 40px;
 }
 
-.featured__intro-footer-author {
-    align-items: center;
-}
-
 .author__info {
     margin-left: 14px;
     flex-direction: column;
@@ -232,31 +228,6 @@
     border-radius: 50%;
 }
 
-.featured__info--on {
-    display: block;
-    font-size: 1.8rem;
-    text-align: center;
-    line-height: 40px;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(231 250 254);
-    border-bottom-right-radius: 10px;
-    animation: slip ease-in 1.5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes slip { 
-    from {
-        transform: translateX(-3px)
-    }
-    to {
-        transform: translateX(10px)
-    }
-}
-
 
 /* category */
 
@@ -269,7 +240,7 @@
     color: var(--main-tittle-color)
 }
 
-.category__more h3 {
+.category__more span {
     font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
@@ -376,11 +347,7 @@
     margin-bottom: 36px;
 }
 
-.recipes__product-tags {
-}
-
 .recipes__product-tag {
-    align-items: center;
     margin-right: 20px;
 }
 
@@ -443,7 +410,6 @@
 .fd-instagram__outstanding {
     padding-bottom: 80px;
     flex-direction: column;
-    align-items: center;
     text-align: center;
 }
 
@@ -469,10 +435,6 @@
 .fd-instagram__post-header {
     background-color: var(--white-color);
     padding: 10px;
-}
-
-.fd-instagram__post-header-author {
-    align-items: center;
 }
 
 .fd-instagram__post-header-info {
@@ -543,7 +505,6 @@
 }
 
 .fd-instagram__post-outstanding-header {
-    align-items: center;
     font-size: 1rem;
     margin-bottom: 8px;
 }
@@ -625,13 +586,11 @@
 }
 
 .more-recipes__product-tags {
-    align-items: center;
     margin-bottom: 20px;
 }
 
 .more-recipes__product-tag {
     margin-right: 20px;
-    align-items: center;
 }
 
 .more-recipes__product-tag span {

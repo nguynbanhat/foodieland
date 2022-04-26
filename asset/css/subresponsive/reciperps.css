@@ -1,0 +1,40 @@
+@media (max-width: 575px){
+    .recipes-header__heading-info-title {
+        font-size: 3.4rem;
+    }
+
+    .recipes-header__item-recipe {
+        border-left: none;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .featured__intro-footer-author {
+        display: none;
+    }
+
+    .recipes-header__list-recipe {
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 991px) {
+    .recipes-header__heading-social {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
