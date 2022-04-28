@@ -27,11 +27,10 @@
         z-index: 99;
         background-color: var(--white-color);
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
         transform: translateX(120%);
         transition: all 0.2s linear;
+        padding-top: 30px;
     }
 
     .header__item {
@@ -74,6 +73,10 @@
         padding: 20px 20px;
     }
 
+    .subscribe__search-btn {
+        width: 90px;
+    }
+
     .watch__video-link {
         margin-top: 20px;
     }
@@ -100,10 +103,6 @@
 
     .header__item-link {
         margin: 0 12px;
-    }
-
-    .header__list--info {
-        display: flex;
     }
 
     /* .featured {
@@ -165,10 +164,12 @@
     .slider,
     .category,
     .recipes,
+    .recipes-recomment,
     .learn-more,
     .fd-instagram,
     .more-recipes,
-    .subscribe {
+    .subscribe,
+    .blog__select-page {
         margin-bottom: 100px;
     }
 }
@@ -176,9 +177,6 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
 
-    .header__list--info {
-        display: flex;
-    }
 
     .header__item-link {
         margin: 0 25px;
@@ -216,9 +214,6 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1279px){
-    .header__list--info {
-        display: flex;
-    }
 
     .featured__intro-tags {
         display: flex;

@@ -103,7 +103,21 @@ html {
 .fd-instagram,
 .more-recipes,
 .subscribe,
-.recipes-recomment {
+.recipes-recomment,
+.blog__select-page {
     margin-bottom: 150px;
-}    
+}  
+
+
+.search-input {
+    border-color: transparent;
+    font-size: 1.6rem;
+    outline: none;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.subscribe__search-btn {
+    cursor: pointer;
+}
 

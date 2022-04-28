@@ -59,6 +59,7 @@
     border-radius: 50%;
     font-size: 2.4rem;
     margin-bottom: 20px;
+    color: #000;
 }
 
 .recipes-header__heading-social-print,
@@ -187,6 +188,9 @@
     border: 1px solid #ccc;
     transition: all 0.15s ease-out 0s;
     background: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recipe-formaindish__item--checkbox:hover {
@@ -203,12 +207,12 @@
 }
 
 .recipe-formaindish__item--checkbox:checked::before {
-    width: 23px;
     height: 22px;
     display:flex;
     content: '\f00c';
     font-size: 12px;
     font-weight:bold;
+    position: absolute;
     align-items:center;
     justify-content:center;
     font-family:'Font Awesome 5 Free';
@@ -223,8 +227,6 @@
     display: block;
     z-index: 100;
     position: absolute;
-    top: -35px;
-    left: -35px;
 }
 
 .recipe-formaindish__item--checkbox::after {
@@ -239,8 +241,8 @@
     }
 
     to {
-        height: 100px;
         width: 100px;
+        height: 100px;
         opacity: 0;
     }
 } 
@@ -256,6 +258,10 @@
 
 .recipe-ingredients__item {
     margin-bottom: 20px ;
+}
+
+.recipe-ingredients__item-link img {
+    border-radius: 20px;
 }
 
 .recipe-ingredients__item-info {

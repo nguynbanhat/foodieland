@@ -18,7 +18,8 @@ $('.slider').slick({
     </button>
     </div>`,
 });
-  
+
+
 // heart-noHaert
 
 var likes = document.querySelectorAll('.recipes__product-heat')

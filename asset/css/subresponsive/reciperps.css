@@ -7,12 +7,17 @@
         border-left: none;
         padding: 10px;
     }
+
+    .recipes-header__heading-info-athur {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
 
     .featured__intro-footer-author {
-        display: none;
+        flex-direction: column;
+        margin-right: auto
     }
 
     .recipes-header__list-recipe {
@@ -28,6 +33,10 @@
 @media (max-width: 991px) {
     .recipes-header__heading-social {
         display: none;
+    }
+
+    .recipes-header__content-table {
+        margin-top: 30px;
     }
 }
 

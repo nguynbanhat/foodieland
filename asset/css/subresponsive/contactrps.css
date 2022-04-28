@@ -6,6 +6,17 @@
 
 }
 
+@media (max-width: 767px) {
+    .grid {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .contact__form {
+        margin-top: 80px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
